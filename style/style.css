@@ -1,0 +1,397 @@
+p {
+	font-family: 'Lora', serif;
+	color: #333;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.first-page h1{
+	font-size: 13vw;
+	letter-spacing: -7px;
+	font-weight: 100;
+	margin-left: 52vw;
+	z-index: 2;
+	color: #eee;
+
+	transition: all 0.2s;
+}
+
+@media (min-width: 970px) {
+	.first-page h1 {
+		letter-spacing: -15px;
+		font-size: 15.7vw;
+		text-shadow: 2px 2px 5px rgba(150, 150, 150, 0.4);
+	}
+}
+
+.first-page h1:hover {
+	color: teal;
+	opacity: 0.8;
+
+}
+
+.pin {
+  top: 25px;
+  left: 50px;
+  width: 35px;
+  position: fixed;
+  cursor: pointer;
+}
+
+
+.seccond-page p {
+	margin-left: 55vw;
+  	padding: 0;
+  	position: relative;
+   top: 10%;
+   transform: translateY(-50%);
+   opacity: 1;
+   z-index: 9;
+   font-size: 4vw;
+
+   opacity: 0;
+}
+
+
+.seccond-page p span {
+  font-weight: 100;
+  color: #D94B4C;
+}
+
+/*border start*/
+
+.redBorderTop {
+  width: 100%;
+  left: 6%;
+  max-width: 43.5%;
+  top: 22%;
+  position: fixed;
+  padding: 0;
+  z-index: 4;
+  transition: all 0.3s;
+    border-top: 10px solid #D94B4C;
+
+
+}
+
+.redBorder {
+	box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+
+	width: 100%;
+	left: 6%;
+  max-width: 43.5%;
+  top: 22%;
+  position: fixed;
+  height: 31vw;
+  padding: 0;
+  z-index: 6;
+
+    border-bottom: 10px solid #D94B4C;
+  border-left: 10px solid #D94B4C;
+  border-right: 10px solid #D94B4C;
+
+
+  transition: all 0.3s;
+}
+
+.redBorder p {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 5vw;
+   text-transform: uppercase; 
+   font-weight: 700;
+  position: absolute;
+   right: 15px;
+   text-align: right;
+   width: 100%;
+   top: 32%;
+   transform: translateY(-32%);
+
+   transition: all 0.2s;
+
+}
+
+.bnp-boder {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 6.7vw;
+  text-transform: uppercase; 
+  font-weight: 100;
+  position: absolute;
+  right: 14%;
+  text-align: right;
+  width: 300%;
+  top: 60%;
+  transform: translateY(-80%);
+  opacity: 0;
+
+
+	transition: all 0.6s;
+	animation-delay: 0.8s;
+   -moz-box-sizing: animation-delay: 0.8s;
+   -webkit-box-sizing: animation-delay: 0.8s;
+
+   transition-delay: 0.3s;
+}
+
+.bnp-boderHover {
+	color: #D94B4C;
+	font-size: 7.1vw;
+	right: 0;
+   top: 24%;
+   transform: translateY(-25%);
+	transition: all 0.45s;
+   transition-delay: 0s;
+}
+
+.empireimg {
+  position: fixed;
+  top: 5%;
+  left: 8%;
+  z-index: 5;
+
+  transition: all 0.6s;
+}
+
+.empireimg-1 {
+  position: fixed;
+  top: -28%;
+  left: 8%;
+  z-index: 5;
+
+  transition: all 0.6s;
+}
+
+.empireimg-2 {
+  position: fixed;
+  top: -188%;
+  left: 8%;
+  z-index: 5;
+
+  transition: all 0.9s;
+}
+
+
+.redBorderAfter {
+  
+
+   max-width: 44.8%;
+   top: 20%;
+   height: 60%;
+   left: 35%;
+   transform: translate(-35%, 0);
+
+   transition: all 0.6s;
+   transition-delay: 0s;
+}
+
+.redBorderAfter2nd {
+	left: 52%;
+}
+
+
+
+.redBorderHover {
+	border-left: 10px solid #000;
+	border-right: 10px solid #000;
+	border-bottom: 10px solid #000;
+
+	max-width: 51%;
+	height: 65%;
+	top: -3%;
+	left: 50%;
+	transform: translate(-50%, 25%);
+
+	transition: all 0.45s;
+   transition-delay: 0s;
+}
+
+.redBorderTopAfter {
+  border-top: 10px solid #D94B4C;
+  max-width: 44.8%;
+  top: 20%;
+  left: 35%;
+  transform: translate(-35%, 0);
+
+   transition: all 0.6s;
+   transition-delay: 0s;
+}
+
+.redBorderTopAfter2nd {
+	left: 52%;
+}
+
+
+.redBorderTopAfterHover {
+
+	border-top: 10px solid #000;
+	max-width: 51%;
+	top: 12%;
+	left: 50%;
+	transform: translate(-50%, 25%);
+
+	transition: all 0.45s;
+   transition-delay: 0s;
+
+}
+
+/*border en*/
+
+/*.img1 {
+	width: 32vw;
+	position: absolute;
+	margin-left: 58vw;
+	top: 50%;
+   transform: translateY(-50%);
+   opacity: 0.5;
+}
+*/
+
+.forImg {
+	width: 32vw;
+	height: 43vw;
+	margin-left: 58vw;
+	overflow: hidden;
+
+	transition: all 0.45s;
+	opacity: 0;
+}
+
+.img-2Hover {
+	width: 52vw;
+	margin-left: 28vw;
+	margin-bottom: 2vw;
+	height: 28vw;
+
+	transition: all 0.6s;
+}
+
+.imImg {
+	width: 32vw;
+	height: 44vw;
+background-image: url('../img/bnp_image-bnw.png');
+background-repeat:no-repeat;
+background-size:contain;
+background-position: 0;
+
+transition: all 0.45s;
+}
+
+.img-3 .imImg {
+background-image: url('../img/stil-326695.png');
+}
+
+.img-4 .imImg {
+background-image: url('../img/restaurant_rosehill_cocktail2.png');}
+
+.img-5 .imImg {
+background-image: url('../img/fso-splash.png');}
+
+
+.img-3, .img-5 {
+	margin-left: 10vw;
+}
+
+.img-3Hover {
+		width: 52vw;
+	margin-left: 28vw;
+	margin-bottom: 2vw;
+	height: 28vw;
+
+	transition: all 0.6s;
+}
+
+.imImgHover {
+	width: 52vw;
+	height: 59vw;
+	background-position: 0 -5vw;
+
+	transition: all 0.6s;
+}
+
+.hidentext {
+  position: relative;
+  text-align: center;
+  top: 5%;
+  opacity: 0;
+
+  transition: all 0.3s;
+}
+
+
+.textFadeOut {
+	opacity: 0;
+
+	transition: all 0.3s;
+}
+
+.textFadeIn {
+	opacity: 1;
+
+	transition: all 2.6s;
+	transition-delay: 0.6s;
+}
+
+
+.explore {
+  bottom: 0%;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 45%;
+  transform: translate(0, -50%);
+  z-index: 8;
+}
+
+
+.exploreLine {
+  width: 10px;
+  margin: 0 auto;
+
+  height: 40px;
+  border-right: 2px solid #D94B4C;
+  transform: rotate(30deg);
+}
+
+.exploreText {
+  text-align: center;
+
+  height: 20px;
+}
+
+.viev {
+  bottom: 0%;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 125vw;
+  z-index: 8;
+  top: 40%;
+  transform: translateY(-50%);
+
+}
+
+.vievRight {
+  left: 85vw;
+}
+
+
+.vievLine {
+  width: 10px;
+  margin: 0 auto;
+
+  height: 4vw;
+  border-right: 2px solid #D94B4C;
+  transform: rotate(30deg);
+}
+
+.vievText {
+  font-family: 'Lora', serif;
+  font-size: 2.5vw;
+  font-weight: 100;
+  text-align: center;
+}
+
